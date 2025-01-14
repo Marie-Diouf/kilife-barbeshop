@@ -1,44 +1,37 @@
+/* Styles généraux */
 .navbar {
     display: flex;
     justify-content: space-between;
     position: sticky;
-    
-    
-
 }
-.navbar ul{
+.navbar ul {
     display: flex;
-    
 }
-.navbar ul li{
+.navbar ul li {
     padding: 12px;
     list-style: none;
     margin-right: 50px;
 }
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
 }
 
-    
-
-.image{
+.image {
     margin-top: 25px;
-    
 }
-hr{
+hr {
     border: none;
 }
 .ligne {
-    width: 100%; /* Ligne pleine largeur */
-    height: 2px; /* Épaisseur réduite pour la discrétion */
-    
-    margin: 0; /* Pas d'espacement vertical supplémentaire */
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Effet d'ombre très léger pour une meilleure visibilité */
+    width: 100%;
+    height: 2px;
+    margin: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-.text{
+.text {
     margin-left: 65%;
     margin-top: -35%;
 }
@@ -51,70 +44,58 @@ hr{
     padding: 10px 20px; 
     color: #fff; 
     margin-top: 33%;
-    
 }
 
-/* Icône WhatsApp */
 .whatsapp-header i {
-    font-size: 32px; /* Taille du logo */
+    font-size: 32px;
     color: white; 
-    margin-right: 80px; /* Espacement entre le logo et le titre */
+    margin-right: 80px;
 }
 
-/* Titre h1 */
 .whatsapp-header h1 {
-    font-size: 24px; /* Taille du titre */
-    
-    font-weight: bold; /* Texte en gras */
+    font-size: 24px;
+    font-weight: bold;
 }
-.background{
+
+.background {
     background-color: #f6bb81;
-    
-    
 }
-.titre{
+
+.titre {
     font-size: 40px;
     margin-left: 10%;
     margin-top: 20%;
-    
 }
 
-  /* Pour centrer les boutons */
 .buttom {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajuste la hauteur pour centrer verticalement */ 
-    
-  }
-  
-  /* Styles pour les boutons */
-  .btn {
-    font-size: 1.5rem; /* Agrandir le texte */
-    padding: 5px 20px; /* Agrandir les boutons */
-    border-radius: 25px; /* Arrondir les boutons */
-    margin: 0 5px; /* Espacement entre les boutons */
+    height: 100vh;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin: 0 5px;
     transition: transform 0.2s, background-color 0.2s;
     background-color: #f6bb81;
     color: #000;
     margin-top: 5%;
     margin-left: 5%;
-  }
-  
-  /* Effet au survol */
-  .btn:hover {
-    transform: scale(1.1); /* Légèrement agrandir au survol */
-    background-color: grey; /* Changez la couleur selon vos besoins */
-  }
-  .formulaire {
-    max-width: 500px;
-    margin: auto; 
-      
 }
 
-   
+.btn:hover {
+    transform: scale(1.1);
+    background-color: grey;
+}
 
-  
+.formulaire {
+    max-width: 500px;
+    margin: auto; 
+}
+
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -122,106 +103,205 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-/* Bouton WhatsApp avec fond noir et texte blanc */
+
 .btn-whatsapp {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black; /* Fond noir */
-    color: white; /* Texte blanc */
-    padding: 12px 20px; /* Espacement interne */
-    border-radius: 30px; /* Bord arrondi */
-    text-decoration: none; /* Enlever le soulignement */
-    font-size: 16px; /* Taille du texte */
-    font-weight: bold; /* Gras */
-    transition: background-color 0.3s ease; /* Animation de couleur au survol */
-  }
-  
-  .btn-whatsapp i {
-    margin-right: 10px; /* Espace entre l'icône et le texte */
-    font-size: 20px; /* Taille de l'icône */
-  }
-  
-  .btn-whatsapp:hover {
-    background-color: #25d366; /* Couleur verte de WhatsApp au survol */
-  }
-  .texte p {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-whatsapp i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.btn-whatsapp:hover {
+    background-color: #25d366;
+}
+
+.texte p {
     text-align: center;
     background-color: black;
     color: white;
     padding: 10px;
     font-size: 20px;
-  }
-  .new-background{
+}
+
+.new-background {
     background-color: #292F2E;
     margin-top: 20%;
-  }
-  /* Conteneur des icônes */
+}
+
 .social-media {
-    display: flex;  /* Utilisation de flexbox pour aligner les icônes */
-     margin-left: 70%;
-    gap: 20px;  /* Espacement entre les icônes */
-    margin-top: 30px;  /* Marge pour éloigner les icônes du contenu précédent */
+    display: flex;
+    margin-left: 70%;
+    gap: 20px;
+    margin-top: 30px;
     padding: 40px;
 }
 
-/* Style de chaque icône */
 .social-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;  /* Taille des icônes */
+    width: 20%;
     height: 40px;
-    border-radius: 50%;  /* Bord arrondi pour les icônes */
-    font-size: 20px;  /* Taille des icônes */
-    color: white;  /* Couleur des icônes */
-    text-decoration: none;  /* Retirer les soulignements */
-    transition: background-color 0.3s ease, transform 0.3s ease;  /* Animation au survol */
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Couleurs spécifiques pour chaque réseau social */
 .social-icon.facebook {
-    background-color: #f6bb81;  /* Fond de Facebook */
+    background-color: #f6bb81;
 }
 
 .social-icon.twitter {
-    background-color: #f6bb81;  /* Fond de Twitter */
+    background-color: #f6bb81;
 }
 
 .social-icon.youtube {
-    background-color: #f6bb81;  /* Fond de YouTube */
+    background-color: #f6bb81;
 }
 
 .social-icon.instagram {
-    background-color: #f6bb81;  /* Fond d'Instagram */
+    background-color: #f6bb81;
 }
 
 .social-icon.linkedin {
-    background-color: #f6bb81;  /* Fond de LinkedIn */
+    background-color: #f6bb81;
 }
 
-/* Effet au survol : agrandir l'icône et changer de fond */
 .social-icon:hover {
-    transform: scale(1.2);  /* Agrandir légèrement l'icône */
-    background-color: #444;  /* Changer de couleur au survol */
+    transform: scale(1.2);
+    background-color: #444;
 }
-p{
+
+p {
     color: #f6bb81;
     text-align: center;
 }
 
+/* --- Media Queries --- */
 
+/* Pour les écrans moyens (tablettes) */
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
 
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .navbar ul li {
+        margin-right: 20px;
+    }
 
-    
+    .text {
+        margin-left: 0;
+        margin-top: -10%;
+        text-align: center;
+    }
 
+    .image {
+        margin-top: 20px;
+    }
 
-    
+    .titre {
+        font-size: 30px;
+        margin-left: 0;
+        margin-top: 10%;
+    }
 
-    
+    .buttom {
+        flex-direction: column;
+    }
 
+    .btn {
+        font-size: 1.2rem;
+        padding: 10px 30px;
+        margin: 5px 0;
+    }
 
+    .formulaire {
+        max-width: 90%;
+    }
 
+    .social-media {
+        margin-left: 0;
+        justify-content: center;
+    }
 
+    .social-icon {
+        width: 30%;
+        font-size: 18px;
+    }
+}
 
+/* Pour les petits écrans (smartphones) */
+@media (max-width: 480px) {
+    .navbar ul {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .text {
+        margin-left: 0;
+        margin-top: -20%;
+        text-align: center;
+    }
+
+    .image {
+        margin-top: 10px;
+    }
+
+    .titre {
+        font-size: 24px;
+        margin-top: 5%;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    .formulaire {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .formulaire input,
+    .formulaire textarea {
+        padding: 8px;
+    }
+
+    .social-media {
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .social-icon {
+        width: 50%;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
